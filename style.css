@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  font-family: "Poppins";
+}
+
+/* Navbar */
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.magnifying-glass {
+  width: 32px;
+  height: 32px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  color: white;
+}
+
+.navbar2 {
+  display: flex;
+  align-items: center;
+}
+
+.navbar2 img.logo {
+  width: 80px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.join-button1 {
+  border: 1px solid black;
+  padding: 5px;
+}
+.loginbotton {
+  color: black;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  height: 600px;
+}
+
+/* Division one */
+#section1 {
+  background-color: rgb(249, 240, 241);
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+#section1 article {
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-bottom: 10px;
+}
+
+#section1 ul {
+  display: flex;
+  flex-direction: row;
+}
+#section1 ul a {
+  list-style: none;
+  margin: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+#section1 .seePlans {
+  width: 140px;
+  height: 30px;
+  background-color: #fb3b49;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  box-shadow: 5px 5px 0 lightpink;
+}
+
+#section1 .join-button {
+  height: 40px;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* Division two */
+.hexagon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+h3 {
+  text-align: center;
+  font-size: 36px;
+  background-color: lightgoldenrodyellow;
+  font-style: italic;
+}
+
+#section2 article {
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+/* Division three */
+.box img {
+  height: 20px;
+  width: 20px;
+}
+
+.box h5 {
+  color: #ed1c24;
+}
+
+#section3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 15% 0 15%;
+}
+
+#section3
+h4 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#section3 p {
+ padding: 10px;
+ margin-left: -5%;
+}
+
+.createlink {
+  box-shadow: 5px 5px 0 rgba(68, 67, 66, 0.2);
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  height: 40px; 
+  width: 200px; 
+  margin-top: 30px;
+  text-align: center;
+  display: flex; 
+  align-items: center;
+  padding-left: 40px;
+}
+
+.createlink span {
+  display: inline-block; 
+}
+
+.bottom-container {
+  display: flex;
+  align-items: center;
+}
